@@ -9,11 +9,11 @@
     let filteredMekanlar = mekanlar;
     let selectedCity = '';
     let selectedCategory = '';
+    let searchQuery = '';
 
   
     function handleSearch(event) {
-      const searchQuery = event.detail.toLowerCase();
-      filteredMekanlar = mekanlar.filter(mekan => mekan['mekan-ismi'].toLowerCase().startsWith(searchQuery));
+      searchQuery = event.detail.toLowerCase();
       applyCityFilter();
     }
     
@@ -27,14 +27,19 @@
     }
   
     function applyCityFilter() {
-        if (selectedCity) {
-            filteredMekanlar = mekanlar.filter(mekan => mekan.şehir === selectedCity);
-            console.log(selectedCity, 'seçildi');
-        } else {
-            filteredMekanlar = mekanlar;
-            console.log('Hiçbir şehir seçilmedi');
-        }
+      if (selectedCity) {
+        filteredMekanlar = mekanlar.filter(mekan =>
+          mekan.şehir === selectedCity && mekan['mekan-ismi'].toLowerCase().startsWith(searchQuery)
+        );
+        console.log(selectedCity, 'seçildi');
+      } else {
+        filteredMekanlar = mekanlar.filter(mekan =>
+          mekan['mekan-ismi'].toLowerCase().startsWith(searchQuery)
+        );
+        console.log('Hiçbir şehir seçilmedi');
+      }
     }
+
 
 
   
@@ -46,7 +51,7 @@
   <main>
     <h1>Restoran Listesi</h1>
     <SearchBar on:search={handleSearch} />
-    <CitiesFilter on:cityFilter={handleCityFilter} />
+    <CitiesFilter on:cityFilter={handleCityFilter} selectedCity={selectedCity} />
     <CategoryFilter bind:selectedCategory on:categoryFilter={handleCategoryFilter} />
 
   
