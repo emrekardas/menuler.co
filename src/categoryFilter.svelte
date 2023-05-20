@@ -1,13 +1,10 @@
 <script>
+  import data from './data/data.json';
+
   export let selectedCategory = '';
   export let onCategoryFilter = () => {};
 
-  const categories = [
-    { name: 'burger', src: './icons/burger.svg' },
-    { name: 'kahvaltı', src: './icons/pancake.svg' },
-    { name: 'kebap', src: './icons/kebab.svg' },
-    { name: 'içki', src: './icons/wine-glass.svg' }
-  ];
+  const categories = Array.from(new Set(data.data.map(mekan => mekan.kategori)));
 
   function handleCategoryFilter(category) {
     if (selectedCategory === category) {
@@ -23,16 +20,16 @@
 <div>
   {#each categories as category}
     <button
-      class:selected={selectedCategory === category.name}
-      on:click={() => handleCategoryFilter(category.name)}
+      class:selected={selectedCategory === category}
+      on:click={() => handleCategoryFilter(category)}
     >
-      <img src={category.src} alt={category.name} />
+      <img src={`./icons/${category}.svg`} alt={category} />
     </button>
   {/each}
 </div>
 
 <style>
-  .active {
+  .selected {
     font-weight: bold;
   }
 </style>

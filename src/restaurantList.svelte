@@ -38,11 +38,7 @@
         );
         console.log('Hiçbir şehir seçilmedi');
       }
-    }
-
-
-
-  
+    }  
     onMount(() => {
       applyCityFilter();
     });

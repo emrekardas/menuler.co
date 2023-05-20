@@ -1,35 +1,130 @@
 {
-    "data": [
-      {
-        "id": 1,
-        "mekan-ismi": "Lezzet Köşesi",
-        "kategori": "kahvaltı",
-        "şehir": "İstanbul"
-      },
-      {
-        "id": 2,
-        "mekan-ismi": "Burger Dünyası",
-        "kategori": "burger",
-        "şehir": "Ankara"
-      },
-      {
-        "id": 3,
-        "mekan-ismi": "Kebapçı Mehmet Usta",
-        "kategori": "kebap",
-        "şehir": "İzmir"
-      },
-      {
-        "id": 4,
-        "mekan-ismi": "Baran Pub",
-        "kategori": "içki",
-        "şehir": "Antalya"
-      },
-      {
-        "id": 5,
-        "mekan-ismi": "Kahve Durağı",
-        "kategori": "kahvaltı",
-        "şehir": "Bursa"
-      }
-    ]
-  }
-  
+  "data": [
+    {
+      "id": 1,
+      "mekan-ismi": "Lezzet Köşesi",
+      "kategori": "kahvaltı",
+      "şehir": "İstanbul"
+    },
+    {
+      "id": 2,
+      "mekan-ismi": "Burger Dünyası",
+      "kategori": "burger",
+      "şehir": "Ankara"
+    },
+    {
+      "id": 3,
+      "mekan-ismi": "Kebapçı Mehmet Usta",
+      "kategori": "kebap",
+      "şehir": "İzmir"
+    },
+    {
+      "id": 4,
+      "mekan-ismi": "Baran Pub",
+      "kategori": "içki",
+      "şehir": "Antalya"
+    },
+    {
+      "id": 5,
+      "mekan-ismi": "Kahve Durağı",
+      "kategori": "kahvaltı",
+      "şehir": "Bursa"
+    },
+    {
+      "id": 6,
+      "mekan-ismi": "Pizza Delisi",
+      "kategori": "pizza",
+      "şehir": "İzmir"
+    },
+    {
+      "id": 7,
+      "mekan-ismi": "Mangal Keyfi",
+      "kategori": "kebap",
+      "şehir": "Adana"
+    },
+    {
+      "id": 8,
+      "mekan-ismi": "Cafe Nostalji",
+      "kategori": "kahvaltı",
+      "şehir": "Trabzon"
+    },
+    {
+      "id": 9,
+      "mekan-ismi": "Pub 34",
+      "kategori": "içki",
+      "şehir": "İzmit"
+    },
+    {
+      "id": 10,
+      "mekan-ismi": "Tostçu Hüseyin",
+      "kategori": "tost",
+      "şehir": "Gaziantep"
+    },
+    {
+      "id": 11,
+      "mekan-ismi": "Köfteci Ali Baba",
+      "kategori": "hızlı-yemek",
+      "şehir": "Antakya"
+    },
+    {
+      "id": 12,
+      "mekan-ismi": "Fish & Chips",
+      "kategori": "deniz-mahsulleri",
+      "şehir": "Alanya"
+    },
+    {
+      "id": 13,
+      "mekan-ismi": "Kumpir Dünyası",
+      "kategori": "atıştırmalık",
+      "şehir": "Muğla"
+    },
+    {
+      "id": 14,
+      "mekan-ismi": "Cafe Moda",
+      "kategori": "kahve",
+      "şehir": "Eskişehir"
+    },
+    {
+      "id": 15,
+      "mekan-ismi": "Dönerci Hasan",
+      "kategori": "kebap",
+      "şehir": "Isparta"
+    },
+    {
+      "id": 16,
+      "mekan-ismi": "Sushi House",
+      "kategori": "sushi",
+      "şehir": "Bodrum"
+    },
+    {
+      "id": 17,
+      "mekan-ismi": "Pide Pazarı",
+      "kategori": "pide",
+      "şehir": "Trabzon"
+    },
+    {
+      "id": 18,
+      "mekan-ismi": "Çay Bahçesi",
+      "kategori": "kahvaltı",
+      "şehir": "Van"
+    },
+    {
+      "id": 19,
+      "mekan-ismi": "Bira Evi",
+      "kategori": "içki",
+      "şehir": "Bodrum"
+    },
+    {
+      "id": 20,
+      "mekan-ismi": "Köy Kahvaltısı",
+      "kategori": "kahvaltı",
+      "şehir": "Trabzon"
+    },
+    {
+      "id": 21,
+      "mekan-ismi": "Balıkesir Kahvaltısı",
+      "kategori": "kahvaltı",
+      "şehir": "Balıkesir"
+    }
+  ]
+}
