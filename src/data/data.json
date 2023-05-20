@@ -1,0 +1,35 @@
+{
+    "data": [
+      {
+        "id": 1,
+        "mekan-ismi": "Lezzet Köşesi",
+        "kategori": "kahvaltı",
+        "şehir": "İstanbul"
+      },
+      {
+        "id": 2,
+        "mekan-ismi": "Burger Dünyası",
+        "kategori": "burger",
+        "şehir": "Ankara"
+      },
+      {
+        "id": 3,
+        "mekan-ismi": "Kebapçı Mehmet Usta",
+        "kategori": "kebap",
+        "şehir": "İzmir"
+      },
+      {
+        "id": 4,
+        "mekan-ismi": "Baran Pub",
+        "kategori": "içki",
+        "şehir": "Antalya"
+      },
+      {
+        "id": 5,
+        "mekan-ismi": "Kahve Durağı",
+        "kategori": "kahvaltı",
+        "şehir": "Bursa"
+      }
+    ]
+  }
+  
