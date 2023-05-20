@@ -4,10 +4,10 @@
     import { onMount } from 'svelte';
   
     const categories = [
-      { name: 'burger', icon: 'fa-burger' },
-      { name: 'kahvaltı', icon: 'fa-pancakes' },
-      { name: 'kebap', icon: 'fa-shish-kebab' },
-      { name: 'içki', icon: 'fa-wine-glass' }
+      { name: 'burger', src: './icons/burger.svg' },
+      { name: 'kahvaltı', src: './icons/pancake.svg' },
+      { name: 'kebap', sr: './icons/kebab.svg' },
+      { name: 'içki', src: './icons/wine-glass.svg' }
     ];
   
     function handleCategoryFilter(category) {
@@ -22,7 +22,7 @@
         class={selectedCategory === category.name ? 'active' : ''}
         on:click={() => handleCategoryFilter(category.name)}
       >
-        <i class="fa-solid {category.icon}"></i>
+        <i class="{category.name}" src="{category.src}"></i>
       </button>
     {/each}
   </div>
