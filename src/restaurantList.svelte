@@ -4,6 +4,7 @@
     import CitiesFilter from './citiesFilter.svelte';
     import { onMount } from 'svelte';
     import CategoryFilter from './categoryFilter.svelte';
+    
   
     let mekanlar = data.data;
     let filteredMekanlar = mekanlar;
