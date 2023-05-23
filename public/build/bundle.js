@@ -1639,7 +1639,11 @@ var app = (function () {
 
     	fetch(apiUrl).then(response => response.json()).then(data => {
     		const city = data.results[0].components.state;
+    		const denemeCity = data.results[0].components.city;
+    		const denemeRoad = data.results[0].components.road;
     		console.log("Konumun il bilgisi:", city);
+    		console.log("denemeCity:", denemeCity);
+    		console.log("denemeRoad:", denemeRoad);
     	}).catch(error => {
     		console.log("İl bilgisi alınırken bir hata oluştu:", error);
     	});
